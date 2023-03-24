@@ -1,9 +1,11 @@
+
 #container{
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
  #countLabel{
     display: block;
@@ -25,7 +27,12 @@
     background-color: rgb(108, 108, 214);
     display: inline-block;
     padding:20px;
+    font-weight: bold;
+    cursor:pointer;
+    border: 20px;
 }
+
+
 
 
 
