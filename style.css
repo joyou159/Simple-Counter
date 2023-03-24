@@ -1,0 +1,32 @@
+#container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ #countLabel{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    margin:20px
+}
+#buttons {
+    display: flex;   
+    gap:20px; 
+    justify-content: center;
+}
+
+#buttons button {
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: rgb(108, 108, 214);
+    display: inline-block;
+    padding:20px;
+}
+
+
+
+
